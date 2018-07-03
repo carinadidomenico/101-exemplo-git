@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    color: rgb(85, 15, 27);
+}
+
+header{
+    height: 200PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;r
+    border: dashed red 3px;
+}
+
+nav{
+    margin-top: 40xp;
+}
+
+aside{
+    position: absolute;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    background-color: lightslategray;
+    }
+
+    section{
+        position: relative;
+        left: 300px;
+        }
+
+    footer{
+        display: flex;
+        left: 1000xp;
+    }
+
+    button{
+        border: solid red 1px;
+        background-color: peru;
+        text-transform: uppercase;
+        border-radius: 10%;
+    }
